@@ -1,0 +1,11 @@
+name: Test Secret
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print secret
+        run: echo "Hello"
